@@ -1,0 +1,84 @@
+.flex-container{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    padding-top: 100px;
+       
+}
+
+   @import url(https://fonts.google.com/specimen/Lexend+Deca);
+   @import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+   header{
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+       font-size: 40px;
+       font-weight: 700;
+       font-style:inherit;
+       font-stretch: wider;
+       color: maroon;
+   }
+
+   body{
+       font-family: 'Lexend Deca';
+       font-size: 15px;
+       font-weight: 400;
+       background-color:rgb(89, 91, 92);
+   }
+
+   .cars1{
+
+    font-family: 'Big Shoulders Display' ;
+
+    background-color:hsl(31, 77%, 52%) ;
+
+    width: 200px;
+
+    padding: 50px;
+
+    
+   }
+   .cars2{
+       font-family: 'Big Shoulders Display' ;
+       background-color: hsl(184,100%,22% );
+       padding: 50px;
+       width: 200px;
+   }
+
+   .cars3{
+       font-family: 'Big Shoulders Display' ;
+       background-color: hsl(179,100%,13%);
+       width: 200px;
+       padding: 50px;
+   }
+
+   .paragraph{
+
+    color: hsla(0, 0%, 100%, 0.75); 
+   }
+
+   .img{
+       padding-bottom: 30px;
+   }
+
+   .button{
+       
+    padding: 10px 20px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    font-size: 15px;
+
+   }
+   .button:active {
+    
+    transform: translateY(4px);
+   }
+   
